@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #projects {
+            background-color: #f8f9fa;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 200px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .project-info {
+            padding: 1.5rem;
+        }
+        .a{
+            color: violet;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="group-planning" class="section">
+        <img src="grp-img.jpg" alt="Project 1">
+        <h2>Group Travel Planning</h2>
+        <p>Connect with other women to plan trips together. Share itineraries and tips for traveling in groups.</p>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Group Travelling</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="grp-home.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Rishikesh, Uttarakhand</h3>
+                        <p>Activities: White-water rafting, bungee jumping, camping, and trekking.
+                            Ideal for: Adventure-seeking friends or corporate teams.</p>
+                    </div>
+                    <a href="goa.html">Heyy Here you get more about Uttarakhand</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="group.avif" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Manali & Solang Valley, Himachal Pradesh</h3>
+                        <p>
+                            Activities: Paragliding, skiing (in winter), and trekking.
+                            Ideal for: Groups of friends who love snow or mountains.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="grp-delhi.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Leh-Ladakh, Jammu & Kashmir</h3>
+                        <p>
+
+                            Activities: Bike trips, Nubra Valley sand dunes, Pangong Lake camping.
+                            Ideal for: Adventure-loving groups looking for road trips.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="grp2.avif" alt="">
+                    </div>
+                    <div>
+                        <h3>Meghalaya</h3>
+                        <p>
+
+                            Activities: Trekking to living root bridges, caving, and exploring waterfalls.
+                            Ideal for: Nature-loving groups seeking offbeat adventures.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="grp3.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3>Gokarna, Karnataka</h3>
+                        <p>
+
+                            Activities: Beach hopping, camping, and yoga retreats.
+                            Ideal for: Relaxed, budget-friendly group outings.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="grp4.avif" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Pondicherry, Tamil Nadu</h3>
+                        <p>
+
+                            Activities: Beachside cafes, cycling tours, and Auroville exploration.
+                            Ideal for: Groups seeking a tranquil, French-inspired retreat.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="grp5.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3>Munnar, Kerala</h3>
+                        <p>
+
+                            Activities: Tea plantation walks, Eravikulam National Park, and boating.
+                            Ideal for: Groups seeking a peaceful getaway in lush greenery.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="grp2.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3>Kaziranga National Park, Assam
+                        </h3>
+                        <p>
+
+                            Activities: Elephant safaris and spotting one-horned rhinoceroses.
+                            Ideal for: Wildlife photographers and nature-loving groups.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+</body>
+</html>
